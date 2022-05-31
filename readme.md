@@ -2,20 +2,17 @@
 
 a cli interface to netflix's fast.com speedtest.
 
-stops when measurements are stable.
+## installation (local)
 
-## installation
-
-you will need python 3.6
+you will need python 3.6 or higher
 
 ```
-pip install fast.com
+pip install -e git+https://github.com/casten/fast.git#egg=fast-com --user
 ```
 
 ## usage
 
 ```bash
 $ fast
-fast.com cli
 1312.527 mbps
 ```
